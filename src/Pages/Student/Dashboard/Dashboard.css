@@ -1,0 +1,177 @@
+.student-dash {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+
+.dash-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 32px 32px 40px 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.welcome-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.student-name {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.student-level {
+  font-size: 16px;
+  line-height: 120%;
+  color: #777;
+  font-weight: 600;
+}
+
+.welcome-state {
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  background: #c09031;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-weight: 600;
+}
+.student-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.pers-info {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 32px 32px 40px 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pers-header {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 600;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dets-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.info {
+  width: 140px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.info-2 {
+  width: 190px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.medical-record {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  padding: 32px 32px 40px 32px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.medical-table {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.medical-head {
+  display: grid;
+  grid-template-columns: 12% 40% 33% 15%;
+  gap: 5px;
+}
+
+.med-head {
+  width: 100%;
+  height: 45px;
+  background: #1977d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.med-text {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+}
+
+.med-active {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #165b2e;
+}
+
+.med-inactive {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
+}

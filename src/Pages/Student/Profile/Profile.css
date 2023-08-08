@@ -1,0 +1,50 @@
+.profile-body {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.profile-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.nav-active {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #165b2e;
+  background: #1977d1;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  cursor: default;
+}
+
+.nav-inactive {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #777777;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #777;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.pers-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 30px;
+}

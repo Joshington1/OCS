@@ -1,0 +1,31 @@
+.ad-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ad-card {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  padding: 42px 32px 42px 32px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.ad-card:hover {
+  background: #1977d1;
+  color: #ffffff;
+  transition: 0.5s ease-in-out;
+}

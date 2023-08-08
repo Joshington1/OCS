@@ -1,0 +1,44 @@
+.set-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.set-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.set-label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #000;
+}
+
+.set-label input{
+    width: 100%;
+}
+
+.set-label input::placeholder{
+    color: #333;
+}
+
+.submit-btn{
+    width: 20%;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 8px;
+    background: #1977d1;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #165b2e;
+    transition: 0.5s ease-in-out;
+}

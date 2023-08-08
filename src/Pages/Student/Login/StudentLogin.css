@@ -1,0 +1,66 @@
+.stud-login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.back {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.back-link:hover {
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 14px;
+  color: #646c9a;
+}
+input {
+  outline: none;
+  border: none;
+  height: 45px;
+  border-radius: 8px;
+  background: #f3f3f3;
+  padding-left: 16px;
+}
+
+input::placeholder {
+  color: #646c9a;
+}
+
+.log-btn {
+  width: 30%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin: 30px auto;
+  background-color: #1977d1;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.log-btn:hover {
+  background-color: #124372;
+  transition: 0.5s ease-in-out;
+}
